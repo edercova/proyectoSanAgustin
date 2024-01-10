@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10rem;
+    background-color: aquamarine;
+    border: 1px solid black;
+    position: fixed;
+
+}
+header img{
+    width: 8rem;
+    margin-right: 3rem;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin: 0 2rem;
+}
+header ul li a{
+    display: inline;
+    font-size: 2.5rem;
+    /* margin: 0 1.8rem; */
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+
+}
+section{
+    padding: 15rem;
+    text-align: justify;
+    font-size: 2rem;
+}
+.nuevo{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 15rem;
+
+}
+.enlace-primario:hover{
+    color: rgb(253, 16, 222);
+}
